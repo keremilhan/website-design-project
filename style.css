@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid black; */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    overflow: overlay;
+}
+
+header {
+    background-color: #35424A;
+    border-bottom: 3px solid #A9508B;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;   
+    color: white; 
+    height: 6rem;
+}
+
+#branding h1, #branding span {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+}
+
+#branding span {
+    color: #A9508B;
+}
+
+#menu ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+#menu ul li {
+    padding: 0.5rem 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#menu ul li:hover {
+    color: #A9508B;
+}
+
+#first-section {
+    background-image: url(/img/showcase.jpg);
+    background-repeat: no-repeat;
+    height: 63vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#first-section h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 5.05rem;
+}
+
+#first-section p {
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    margin: 4vh 10vh 0;
+}
+
+#subscribe-section {
+    background: #35424A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+    height: 10vh;
+}
+
+#subscribe-section h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+#mail-input input {
+    font-size: 0.8rem;
+    width: 260px;
+    height: 40px;
+    padding-left: 1rem;
+}
+
+#mail-input button {
+    background-color: #A9508B;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+}
+
+#courses {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #f4f4f4;
+    padding: 1.5rem 8rem;
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.course img {
+    width: 7rem;
+    height: auto;
+    margin: 0.75rem;
+}
+
+.course h3 {
+    font-size: 1.5rem;
+    margin: 0.75rem;
+}
+
+.course p {
+    margin: 0.75rem;
+}
+
+footer {
+    border-top: 3px solid #A9508B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    gap: 0.5rem;
+}
+
+#about-us {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    gap: 2rem;
+    height: 59vh;
+}
+
+#item1 {
+    width: 60%;
+}
+
+#item1 h3 {
+    padding-left: 4rem;
+    font-size: 1.5rem;
+}
+
+#item1 p {
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+#item1 p:last-child {
+    background-color: #35424A;
+    color: white;
+    margin: 1rem;
+}
+
+#item2 h3 {
+    padding-left: 4rem;
+    font-size: 1.5rem;
+}
+
+#item2 {
+    background-color: #35424A;
+    color: white;
+    height: fit-content;
+    padding-top: 2rem;
+    width: 40%;
+}
+
+#item2 p {
+    padding: 1rem;
+    font-size: 1.3rem;
+    
+}
+
+
+#services-page {
+    display: flex;
+    gap: 5rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+#services h3 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.service h4 {
+    font-size: 1.3rem;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:0.25rem;
+    border: 1px solid lightgray;
+    background-color: #E6E6E6;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.service>* {
+    margin: 0.75rem;
+}
+
+#form {
+    width: 30%;
+    background-color: #35424A;
+    color: white;
+    padding: 2rem 1rem;
+}
+
+#form h3 {
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+#form>* {
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+#form input {
+    height: 2.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+#form button {
+    background-color: #A9508B;
+    width: 8rem;
+    height: 3rem;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+#form textarea {
+    padding-left: 0.5rem;
+}
