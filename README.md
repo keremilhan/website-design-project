@@ -1,2 +1,2 @@
-# website-design-project
-Website design project
+# Website Desing Project
+Website design project -- https://keremilhan.github.io/website-design-project
