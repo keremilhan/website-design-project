@@ -264,6 +264,10 @@ footer {
     padding-left: 0.5rem;
 }
 
+#form textarea {
+    margin-top: 0.25rem;
+}
+
 #form button {
     background-color: #A9508B;
     width: 8rem;
@@ -275,4 +279,43 @@ footer {
 
 #form textarea {
     padding-left: 0.5rem;
+}
+
+@media (max-width:768px) {
+    #courses {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem 5rem;
+    }
+
+    #css {
+        margin: 1.5rem;
+    }
+
+    #about-us {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    #item1 {
+        min-width: 25rem;
+    }
+
+    #item2 {
+        min-width: 23rem;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    #services-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #form {
+        min-width: 25rem;
+        margin-top: -3rem;
+    }
 }
