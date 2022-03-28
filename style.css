@@ -58,7 +58,7 @@ nav {
 }
 
 #first-section {
-    background-image: url(/img/showcase.jpg);
+    background-image: url(img/showcase.jpg);
     background-repeat: no-repeat;
     height: 63vh;
     color: white;
